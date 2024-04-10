@@ -1,0 +1,77 @@
+body{
+    overflow: hidden;
+}
+
+#id1{
+    display: flex;
+}
+
+#img0{
+    height: 700px;
+    width: 700px;
+    flex-basis: 40%;
+}
+
+#id2{
+    flex-basis: 50%;
+}
+
+#id2 h1{
+    font-size: 70px;
+}
+
+button{
+    display: inline-block;
+    background: navy;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid navy;
+    padding: 14px 50px;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+h2{
+    color: #fff;
+}
+
+#choice{
+    display: flex;
+    /* gap: 5%; */
+}
+
+.ch h2{
+    font-size: 30px;
+}
+
+#pick{
+    font-size: 50px;
+}
+
+#res{
+    display: flex;
+}
+
+#imgd{
+    flex-basis: 45%;
+    height: 35em;
+    width: 35em;
+}
+
+#demo{
+    flex-basis: 45%;
+    font-size: 30px;
+    padding: 10%;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(153, 201, 243);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: navy;
+    display: none;
+}
+
+#play{
+    font-size: 30px;
+    color: #fff;
+}
